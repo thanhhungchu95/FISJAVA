@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mkdir -p bin
+rm -rf bin/*
+javac -d bin @listFile
+mkdir -p bin/ex7/resource
+cp ex7/resource/account bin/ex7/resource

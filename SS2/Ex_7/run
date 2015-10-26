@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./compile
+java -cp bin ex7.Program
